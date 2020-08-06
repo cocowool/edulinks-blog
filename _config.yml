@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
+title: 大江小狼
+subtitle: 'A FULL STACK DREAMER!'
+description: '大江小浪，一位资深IT从业人员，关注互联网/金融行业发展趋势，擅长Java、Elasticsearch、Kubernetes相关技术。'
+keywords: 'Kubernetes,Docker,java,spring-cloud,kafka,elasticsearch,互联网技术,IT,开发,研发'
 author: cocowool
-language: en
-timezone: ''
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://www.edulinks.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -104,9 +104,13 @@ theme: rosefocus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://git.sinacloud.com/corpuscloud
+  branch: 4
 
 node_sass:
   includePaths:
     - "node_modules"
   outputStyle: compressed
+  precision: 5
+  souceComments: false
