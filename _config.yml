@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 大江小狼
+title: 大江小浪
 subtitle: 'A FULL STACK DREAMER!'
 description: '大江小浪，一位资深IT从业人员，关注互联网/金融行业发展趋势，擅长Java、Elasticsearch、Kubernetes相关技术。'
 keywords: 'Kubernetes,Docker,java,spring-cloud,kafka,elasticsearch,互联网技术,IT,开发,研发'
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
+# theme: landscape
 theme: rosefocus
 
 # Deployment
